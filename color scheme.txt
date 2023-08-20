@@ -1,0 +1,4 @@
+root-color: #A57EF1 //purple
+bgcolor: #fefbe9 //beige
+font-color: #fefbe9 //beige
+fontcolor: #3f1f7e//darkpurple

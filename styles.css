@@ -1,0 +1,206 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fefbe9;
+    /* border: red 2px solid; */
+    width: 100%;
+  }
+  
+  @keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+  }
+
+  /* slide from top animation */
+
+ /* .wrapper { 
+    animation: slideInFromTop 1s ease-in-out;
+ }  */
+
+
+/* container class inclusive for all containers */
+
+  .container {
+    margin: 0 auto;
+    padding: 0;
+    align-items: center;
+    position: relative;
+    align-items: center;
+    /* border: blue 2px solid; */
+  }
+
+  /* PAGE 1 */
+
+  .hero {
+    background-image:linear-gradient(rgba(227, 217, 108, 0.387), rgba(255, 255, 255, 0.387)), url("Images/6.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10% 0;
+    text-align: center;
+    color: #3f1f7e;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+  
+
+  /* TYPING EFFECT WALA TEXT */
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .first-txt {
+    display: inline-block; 
+    position: relative;
+    align-items: center;
+    color: #3f1f7e;
+  }
+
+  #typing-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #logo-in-text{
+    /* border: solid red 1px; */
+    height: 15%;
+    width: 15%;
+    position: relative; 
+    margin-top: -4%;   
+    left: -2%;
+  }
+
+  #logo-in-text img{
+    height: 100%;
+    width: 100%;
+  }
+
+/* PARAGRAPH AFTER MAIN TEXT */
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+  .txt{
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+  /* LEARN MORE BUTTON */
+  .learn-more {
+    background-color: #3f1f7e;
+    color: #fefbe9;
+    border: none;
+    padding: 1% 2%;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }  
+
+/* ABOUT US SECTION - OUR BELIEVES & WHAT DO WE OFFER? */
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+  
+.services, .resources {
+  background-color: white;
+  padding: 3% 0;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: fit-content;
+}
+
+.inside-image{
+  height: 50%;
+  width: 30%;
+  position: relative;
+}
+
+.inside-image img{
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+}
+
+.inside-image-resources{
+  height: 50%;
+  width: 30%;
+  position: relative;
+}
+
+.inside-image-resources img{
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.headings-about-us {
+    text-align: center;
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:  #3f1f7e;
+    height: 10%;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 1em;
+    animation: comingDownAnimation 1s forwards;
+    position: relative;
+    top: -20%;
+}
+
+.services .container, .resources .container {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    flex-wrap: wrap;
+  }
+  
+  .service .container:first-child{
+    top: 50%;
+    position: relative;
+  }
+
+  .service-card, .resource-card {
+    background-color: #f8f8f8;
+    color: #3f1f7e;
+    border-radius: 5px;
+    padding: 2%;
+    width: 50%;
+    margin: 1em;
+    position: relative;
+    top: -17em;    
+  }
+  
+  .service-card h3, .resource-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #chatContainer {
+    display: none;
+    /* Add styling for chat container */
+  }
+  

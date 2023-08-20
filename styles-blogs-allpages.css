@@ -1,0 +1,28 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .blog-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .blog-container h1{
+    color: #3f1f7e;
+  }
+
+  .blog-container p{
+    padding: 2%;
+    text-align: left;
+  }
+  

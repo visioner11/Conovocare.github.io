@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ConvoCare</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="header-footer.css">
+<!-- <link rel="stylesheet" href="chatbot.css"> -->
+</head>
+<body class="wrapper">
+
+  <!-- NAVBAR + LOGO -->
+  <nav>
+    <div class="container">
+      <a class="logo" href="index.html"><img src="Images\LOGO\1.png" id="logo"></a>
+      <div class="navbar">
+        <ul class="nav-links">
+          <li><a class="nav-link-individual" href="index.html">Home</a></li>
+          <li><a class="nav-link-individual" href="blogs.html">Blogs</a></li>
+          <li><a class="nav-link-individual" href="#about-us">About</a></li>
+         <li><a class="nav-link-individual" href="https://forms.gle/VDuyrAnSUyFJsWMB7">Contact</a></li>
+         <li><a href="https://forms.gle/RTF9B8ZA9rV56fLH7" class="nav-link-individual">Feedback</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- FIRST PAGE -->
+
+  <div class="hero">
+    <div class="container">
+      <div class="center-content" style="padding-left:32%;">
+        <div class="first-txt">
+          <div id="typing-container">
+            <h1><span id="typing-text"></span></h1>
+            <div id="logo-in-text"><img src="Images\LOGO\2-nobg.png" class="logo-in-text" alt="ConvoCare Logo" id="walking-image"></div>
+          </div>
+        </div>
+      </div>
+     
+
+      <script>
+        // The text you want to display with typing effect
+        var text = "Welcome to ConvoCare.";
+        
+        // Speed of typing in milliseconds
+        var typingSpeed = 100;
+    
+        // Get the HTML elements
+        var typingElement = document.getElementById("typing-text");
+        var walkingImage = document.getElementById("walking-image");
+    
+        // Function to simulate typing effect
+        function typeText(i) {
+          if (i < text.length) {
+            typingElement.textContent += text.charAt(i);
+            i++;
+            setTimeout(function() {
+              typeText(i);
+            }, typingSpeed);
+          } else {
+            // Show the walking image after typing is complete
+            walkingImage.style.display = "inline";
+            setTimeout(function() {
+              typingElement.textContent = ""; // Clear the text
+              typeText(0); // Start typing animation again
+            }, 2000); // Adjust the delay time between animations (milliseconds)
+          }
+        }
+    
+        // Start the typing animation
+        typeText(0);
+      </script>
+      
+      <p class="txt">At Convocare, we believe that mental health matters. Our mission is to create a supportive and compassionate space where individuals can find solace, gain understanding, and embark on a journey toward mental well-being. We are dedicated to spreading awareness about mental illness and providing valuable resources for those who need it most.</p>
+      </div>
+      <button class="learn-more" id="learn-more-button">Learn More</button>
+      <script>
+        document.getElementById("learn-more-button").addEventListener("click", function() {
+            // Scroll to the section with id "section2"
+            document.getElementById("about-us").scrollIntoView({ behavior: "smooth" });
+        });
+      </script>
+    </div>
+
+    <!-- chatbot code USING WEB MESSENGER -->
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="ConvoCare"
+  agent-id="5554d29d-3092-4c1a-9a1f-d9f09fd09c96"
+  language-code="en"
+></df-messenger>
+ 
+<!-- CHATBOT USING API CALL -->
+<!-- <button id="openChat">Open Chat</button>
+<div id="chatContainer">
+  <div id="chatLog"></div>
+  <input type="text" id="userInput" placeholder="Type your message...">
+  <button id="sendMessage">Send</button>
+</div>
+<script src="chatbot.js"></script> -->
+
+
+  <div id="about-us">
+    <section class="services">
+      <div class="container">
+        <h2 class="headings-about-us">Our Believes</h2>
+        
+        <div class="inside-image"><img src="Images/10.jpg"></div>
+        <div class="service-card" style="float: right;">          
+          <h3>Empathy and Understanding:</h3>
+          <p>At Convocare, we firmly believe in the power of empathy and understanding. We understand that mental health struggles are unique and deeply personal. Our platform is built upon the belief that everyone deserves to be heard, supported, and understood without judgment. We are dedicated to creating a space where individuals can openly share their experiences, find comfort in knowing they're not alone, and receive guidance to navigate their challenges.</p>
+        </div>
+
+        <div class="inside-image" style="left:60%; top:2em;"><img src="Images/11.jpg"></div>
+        <div class="service-card" style="float: left;">
+          <h3>Holistic Approach to Mental Wellness:</h3>
+          <p>CC believes in a holistic approach to mental wellness that encompasses emotional, psychological, and social aspects. Our team of mental health professionals and contributors are committed to providing well-rounded resources that address various dimensions of mental health. We understand that true well-being involves more than just managing symptoms—it's about building resilience, fostering positive relationships, and embracing personal growth.</p>
+        </div>
+       
+        <div class="inside-image" style="position: relative; top:-15em;"><img src="Images/8.jpg"></div>
+        <div class="service-card" style="float: right; top:-32em;">
+          <h3>Inclusivity and Accessibility:</h3>
+          <p>We firmly believe in the principles of inclusivity and accessibility. Mental health affects individuals from all backgrounds, cultures, and walks of life. Our commitment is to create a platform that is welcoming and accessible to everyone, regardless of their identity, location, or circumstances. We strive to ensure that our resources, information, and support are available to individuals of diverse abilities, languages, and experiences. By embracing inclusivity and accessibility, we aim to break down barriers and empower all individuals to take control of their mental health journey.</p>
+        </div>
+      </div>
+    </section>
+    <section class="resources">
+      <div class="container">
+
+        <h2 class="headings-about-us" style="top:-15em; position:relative;">What do we offer?</h2>
+        
+        <div class="inside-image-resources" style="float: right; top:-38em;"><img src="Images/12.jpg"></div>
+        <div class="resource-card" style="float: left; top:-40em;">
+          <h3>Empowering Knowledge through Educational Resources</h3>
+          <p>Our website serves as a rich repository of educational resources. Through a diverse collection of articles and blogs, users can embark on a journey of understanding, awareness, and growth. The blogs cover a wide spectrum of topics, ranging from mental health conditions and coping strategies to self-care. Whether users are seeking to comprehend the science behind mental health or looking for practical tips to enhance their emotional well-being, our educational resources are designed to empower individuals with the insights they need to make informed choices for a healthier life.
+          </p>
+        </div>
+
+        <div class="inside-image-resources" style="float: left;top:-25em; left:-25em;"><img src="Images/believe.jpg"></div>
+        <div class="resource-card" style="float: right;top:-45em;">
+          <h3>Personal Stories: Journeys of Resilience and Triumph</h3>
+          <p>In the realm of mental health, personal stories hold immense power. Our website is dedicated to sharing authentic narratives of individuals who have embarked on their own journeys of resilience and triumph. These stories provide a heartfelt and relatable perspective, allowing users to connect with the experiences of others who have navigated challenges similar to their own. By delving into the highs and lows, struggles and victories, our collection of personal stories fosters a sense of solidarity and empathy among users. These stories not only inspire hope but also remind us that we are not alone in our struggles. Through these shared accounts of strength, vulnerability, and growth, users can find comfort, motivation, and a profound realization that healing is possible</p>
+        </div>
+
+        <div class="inside-image-resources" style="float: right; top:-10em
+        ; right:-30em"><img src="Images/5.jpg"></div>
+        <div class="resource-card"  style="float:left ;top:-40em;margin-bottom:-100em;">
+          <h3>"Expert Guidance: Navigating Mental Health with Professionals</h3>
+          <p>At our website, we recognize the significance of expert guidance in the realm of mental health. Our platform offers direct access to the insights and wisdom of licensed mental health professionals who specialize in various areas. Through live webinars, Q&A sessions, and interactive workshops, users have the invaluable opportunity to engage with experts and seek personalized advice on their mental health concerns. These sessions provide a unique forum for users to have their questions answered by knowledgeable professionals, helping them make informed decisions about their well-being. By bridging the gap between individuals seeking support and qualified experts, our platform facilitates a nurturing environment where users can receive evidence-based guidance to help them embark on a journey of healing and self-discovery.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 ConvoCare.</p>
+    </div>
+  </footer>
+  <!-- <script src="scripts.js"></script> -->
+</body>
+</html>

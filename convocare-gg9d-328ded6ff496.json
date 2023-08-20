@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "convocare-gg9d",
+  "private_key_id": "328ded6ff496ef7ea131cc646e3745dc347ac692",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVCBWYVcramgeb\nIdH/GFNg/jxjghKpZnUvl2SbH0cU76XU4VCs6bDYcHfMdMLSPG+YY0pzf9uudNMj\nbGumOZur/Mo5LxCm8qCExPeHW5xr6EiUoSIg10Eid/LLSICypPzk2xVAuXgKz8nT\nn4P6Ws1pfAQY/FXQFihqbrOq8R/0pZgNfEBb9+2z50ge2UqsWw1LwzRNrhYBty4G\nnMIMhx7dhVPvwJ/bllu1uzsBH0dqQazJYCmQWTPLCfXNP9V2StfBFoecBQf1Jyy9\nhzA9QZCw5EUzWfcCt6cN7KD22ZcNS082OXA1nNBsJHyEjGeycLQ/SFaQ1etRDcHb\n/qY1mEGJAgMBAAECggEAFccJ6xzhHAQJQUP9s1PdqTGQQ5VnWjsrwWHbAmsaAYNG\nqvqeHFEW96dWrddlV6ffOh8zXBeO4fiWIX3Kyu9CcVxqIVqk+4Yb3/rBOayFMvhH\n3C7VPfF3WoJT1xFqO6j3Y99cHrXfFk7b2WcKD0CzVURc6F96V8d+GfRHaHMWItSP\nh8JpCqowdcByzhLWrlERggg6mHEoHR9Lt32ckgZtEIwsOECRod7ZUQFvu1eJ7sMs\nO7BK1/BvbUMQ2QcV6kzbJllFjYLAr2i715XUTPDoZoCzhi35o2okCkXz+SX7O/yK\nitultVgu9OYwHRJIyF7ECfzieG1NyT1wcSPOP/I0UQKBgQD09UUcTMvkbybQcmtF\nFo885lV3piM2H8a8W0H/+xEl6ej7P0EnU03zvYB4x93axp24GWoH+igPBM0V8p/C\nsynkrhZBPZpsnLis0CbISoqUd+wxF+h9qziA7zN5ZAZNlMVc+Onf92tSPLwIsan+\nQXhSrnKtvOI7rSunNuCVQzU/WQKBgQDeomTNGPWlwnNiTGKuuHo+rdu5AiGf7jB5\nDWCXrWVKNpmb4boHal55tvcBkSeVSzrzr1DPRqKnopKikcOY8xoXr9xRNcDAQr7D\nFxUMb8CsTEMDpcWwSyYK2GkLj5kmBYzC1AIS1tdbE1nMSXAwrq8f1ne6iVMf3odU\n2g8bIoF9sQKBgQCxbc7nVsEA73nf1mDYpCSQag5SIiazF4Ut/bPqpIKhQbKd+g1J\nXM/D0ulxkuOhiefH57CjopDNgB7E3P7XWkrn9yjrjKGENmiV1BejUErci5irXrPq\nAtFkot5X+RmPrEjgtPNCZMZ5xMA2U+nb3rQ2v2EVcxEzRJWwAtHdi9bP0QKBgHdN\nUHTzjhdAZzJiunLkWmWiJt8yPDCGpCUKPRuqiF/HeHMm99gncO8KU7zcOvjusm2J\nIeWg9WKdZLSHJeidRPsyev5trpeYbL8AbIAYlof96d9XguMgsgcXxtqyHaBZUv/I\nOkA8LnUYnoMxS1RbF28ZL1mfYxLt3Vlj7LpeuENRAoGAdvGvf9vacp4v4AAdcveG\n55gjX220s9P9IU6nwnczlUOpmnXcS/FZAaokw0oHH3Iimhp76dlTY0ruzaq6S9nH\nGs788v4PqLVrpbflLNF4xZJrI686wu/y1Pgavdm3E6VsvxI7mTJV+E1DCYB1HQhu\nTTGuaSVqBbBFeL6oAKigcLk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "convo-care250611@convocare-gg9d.iam.gserviceaccount.com",
+  "client_id": "107101923892092882259",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/convo-care250611%40convocare-gg9d.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
